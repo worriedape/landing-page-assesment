@@ -48,7 +48,7 @@ a:hover {
     /*color: rgb(88, 34, 88);*/
     /*background-color: rgba(255, 255, 255, 0.514);*/
     border-radius: 4px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     
 }
 
@@ -96,12 +96,22 @@ a:hover {
     /*border-width: 2px;
     border-color: blueviolet;
     border-style: solid;*/
-    display: flex;
     background-color: rgb(255, 164, 46);
     border-radius: 8px;
     padding: 8px 16px;
     box-shadow: 0 8px 16px rgba(129, 131, 133, 0.623);
-    justify-content: center;
+    text-align: center;
+    width: 64px;
+    color: white;
+    flex: 1 0 auto;
+    
+}
+
+.sign:hover {
+    background-color: rgb(255, 143, 15);
+    transform: scale(1.1);
+    font-weight: 600;
+    width: 98px;
 }
 
 .hero img {
@@ -124,7 +134,7 @@ a:hover {
     flex-direction: column;
     background-color: rgb(224, 224, 224);
     color: rgb(65, 65, 65);
-    padding: 24px 42px 24px;
+    padding: 24px 42px;
     align-items: center;
     justify-content: center;
     height: 300px;
@@ -195,7 +205,7 @@ a:hover {
 }
 
 .quote p {
-    width: 360px;
+    width: 420px;
     font-size: 24px;
     padding: 0;
     margin: 0;
@@ -205,9 +215,9 @@ a:hover {
     display: flex;
     color: rgb(83, 83, 83);
     height: 300px;
-    height: 300px;
     align-items: center;
     justify-content: center;
+    padding: 0 64px;
 }
 
 .CTA {
@@ -216,12 +226,19 @@ a:hover {
     background-color: rgb(253, 227, 76);
     padding: 16px 64px;
     border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px 32px;
 }
 
-.message p {
-    padding: 0;
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.message {
     margin: 0;
-    height: 64px;
+    padding: 0;
 }
 
 .footer {
