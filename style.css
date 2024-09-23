@@ -195,8 +195,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     height: 300px;
-    gap:16px
 }
+
 .author {
     font-weight: 600;
     text-align: end;
@@ -222,7 +222,7 @@ a:hover {
 
 .CTA {
     display: flex;
-    gap: 8px;
+    /*gap: 8px;*/
     background-color: rgb(253, 227, 76);
     padding: 16px 64px;
     border-radius: 8px;
