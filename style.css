@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header {
+display: flex;
+height: 64px;
+background-color: rgb(136, 167, 175);
+justify-content: space-between;
+align-items: center;
+padding: 0 16px;
+/* box-shadow: 0 4px 8px rgba(103, 116, 134, 0.377);*/
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 32px;
+    color: white ;
+}
+
+ul {
+display: flex;
+margin: 0;
+padding: 0;
+gap: 24px;
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+color: white; 
+}
+
+a:hover {
+    font-weight: 600;
+    /*color: rgb(206, 60, 150);*/
+    padding: 4px 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 4px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    background-color: rgb(121, 156, 165);
+    color: white;
+    padding: 24px 42px 24px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.awe{
+    width: 320px;
+}
+
+.hero-one {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-two {
+    font-size: 12px;
+}
+
+.sign {
+    border-width: 4px;
+    border-color: blueviolet;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.hero img {
+    height: 120px;
+    width: 90px;
+}
+
+.hero img:hover {
+    transform: scale(1.4);
+}
+
+.random {
+    display: flex;
+    background-color: rgb(224, 224, 224);
+    color: rgb(65, 65, 65);
+    padding: 24px 42px 24px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.random li {
+    display: flex;
+}
+
+.random li p {
+    background-color: white;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-radius: 8px;
+    padding: 32px 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    background-color: rgb(151, 211, 235);
+    color: rgb(65, 65, 65);
+    padding: 24px 42px 24px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal {
+    display: flex;
+    background-color: rgb(253, 227, 76);
+    color: rgb(83, 83, 83);
+    padding: 0 32px 16px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: rgb(136, 167, 175);
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
